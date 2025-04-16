@@ -4,7 +4,7 @@ import os
 from io import BytesIO
 
 # App config
-st.set_page_config(page_title="DataSweeper by Shaharyar", layout="wide")
+st.set_page_config(page_title="DataSweeper by Zameer Ahmed", layout="wide")
 
 # Custom CSS
 st.markdown("""
@@ -47,9 +47,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title section
-st.title("✨ DataSweeper: Sterling Integrator by Muhammad Shaharyar")
-st.caption("Transform. Clean. Convert — All in a few clicks.")
-st.write("Upload your CSV or Excel files to clean, explore, and convert them with ease.")
+st.title("🚀 Sterling DataSweeper — Powered by Zameer Ahmed")
+st.caption("Simplify your data journey: Upload, refine, and export with style.")
+st.write("Drop your Excel or CSV files here to cleanse, shape, and transform your datasets without breaking a sweat.")
+
 
 # File uploader
 uploaded_files = st.file_uploader("📁 Upload your file(s):", type=["csv", "xlsx"], accept_multiple_files=True)
